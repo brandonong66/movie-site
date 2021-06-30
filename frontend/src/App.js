@@ -13,6 +13,7 @@ function App() {
                 <Link to="/">Main Page</Link>
                 <br></br>
                 <Link to="/Library">Library Page</Link>
+                {/* <Switch> looks through its children <Route>s and renders the first one that matches the current URL. */}
                 <Switch>
                     <Route path="/Library">
                         <LibraryPage />
