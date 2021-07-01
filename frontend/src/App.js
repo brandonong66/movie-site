@@ -4,11 +4,13 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 
 import MainPage from './pages/MainPage'
 import LibraryPage from './pages/LibraryPage'
+import Navbar from './components/navbar'
 
 function App() {
     return (
         <Router>
             <div>
+                <Navbar />
                 <h1>The quick brown fox jumped over the lazy dog</h1>
                 <Link to="/">Main Page</Link>
                 <br></br>
