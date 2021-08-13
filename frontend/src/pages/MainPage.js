@@ -1,6 +1,14 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
+// import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import Carousel from '../components/Carousel'
+
 function MainPage() {
-    return <h1>This is the main page</h1>
+    return (
+        <div>
+            <Carousel />
+        </div>
+    )
 }
 
 export default MainPage

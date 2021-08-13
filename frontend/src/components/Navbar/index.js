@@ -9,7 +9,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <h1>Logo goes here</h1>
+                    <h1>Netflicks</h1>
                 </NavLink>
                 <Bars />
                 <NavMenu>
